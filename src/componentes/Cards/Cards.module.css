@@ -1,0 +1,17 @@
+.Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 2rem;
+  margin: 2rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .Container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+}
