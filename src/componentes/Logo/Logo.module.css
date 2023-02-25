@@ -1,4 +1,6 @@
 .Container {
-  width: 20%;
+  display: flex;
+  justify-content: left;
+  width: 60%;
   height: 100%;
 }
