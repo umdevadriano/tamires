@@ -5,20 +5,23 @@ import imagemTelefone from '../Contato/telefone.png';
 import RedeSociais from '../RedeSociais/RedeSociais';
 
 const CardContato = () => {
-  const tel = ['(11)99953-7132'];
-  const whats = ['(11)99953-7132'];
+  const tel = ['(11)9393-79761'];
+  const whats = ['(11)9393-79761'];
 
   return (
     <div className={Styles.Container}>
       <div>
         <h1>
-          <lord-icon
-            src="https://cdn.lordicon.com/elzslyvl.json"
-            trigger="hover"
-            style={{ width: '100px', height: '100px' }}
-          ></lord-icon>
+          <a href="https://goo.gl/maps/JFZ4VAMbNntuRDdo8" target="blank">
+            <lord-icon
+              src="https://cdn.lordicon.com/elzslyvl.json"
+              trigger="hover"
+              style={{ width: '100px', height: '100px' }}
+            ></lord-icon>
+          </a>
+
           <br />
-          <small>Rua jussara 64 , parque pirajussara Embu das artes - Sp</small>
+          <small>Rua Inajá 72 , parque pirajussara Embu das artes - Sp</small>
         </h1>
       </div>
 

@@ -9,4 +9,5 @@
 .Container h1 {
   margin-top: 2rem;
   color: var(--mainColor);
+  font-family: menu;
 }

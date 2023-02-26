@@ -3,7 +3,7 @@ import CardProfissional from '../CardProfissional/CardProfissional';
 import TextoCabe from '../TextoCabe/TextoCabe';
 import TextoCorpo from '../TextoCorpo/TextoCorpo';
 import Styles from './Sobre.module.css';
-import imagem from '../CardProfissional/pexels-mikhail-nilov-8730758.png';
+import imagem from '../CardProfissional/limpezadepele.jpg';
 
 const Sobre = () => {
   return (
@@ -11,13 +11,14 @@ const Sobre = () => {
       <TextoCabe texto="Sobre nós" />
       <div className={Styles.ContainerProfissional}>
         <CardProfissional
-          titulo="Camila santos"
-          texto="Advogada especialista em Direito da Família, formou-se pela UERJ e já possui mais de 10 anos de atuação nos tribunais."
+          titulo="Tamires silva"
+          texto="Esteticista Limpeza de pele Profunda, Epilação Facial & Corporal Feminina"
           foto={imagem}
         />
         <TextoCorpo
           texto="
-        A Escritório Advogados é formada por advogados com especialização,   pós graduação e mestrado nas mais importantes universidades públicas  e privadas do Brasil, passando por constantes atualizações em seus currículos para um melhor atendimento ao público alvo de nosso escritório."
+          Transformando Depilação em Autoestima!💕
+          🔸Especialista em Depilação Feminina"
         />
       </div>
     </div>

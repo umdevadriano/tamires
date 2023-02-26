@@ -5,7 +5,9 @@ import RedeSociais from '../RedeSociais/RedeSociais';
 const Header = () => {
   return (
     <div className={Styles.Container} id="Home">
-      <RedeSociais posicao="right" />
+      <div className={Styles.Container2} id="Home">
+        <RedeSociais posicao="right" />
+      </div>
     </div>
   );
 };
