@@ -7,7 +7,7 @@ import Button from '../Button/Button';
 const Especialidades = () => {
   return (
     <div className={Styles.Container} id="Especialidades">
-      <TextoCabe texto="DE ESTÉTICA FACIAL" />
+      <TextoCabe texto="Epilação Facial e Corporal Feminina" />
 
       <Button
         nome="Agende um horário"

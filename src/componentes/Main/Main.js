@@ -1,16 +1,18 @@
 import React from 'react';
-import Banner from '../Banner/Banner';
 import Especialidades from '../Especialidades/Especialidades';
 import Sobre from '../Sobre/Sobre';
 import Styles from './Main.module.css';
-import imagem from '../Banner/profunda.jpg';
 import Contato from '../Contato/Contato';
+import Feedback from '../Feedback/Feedback';
+import Limpeza from '../Limpeza/Limpeza';
 
 const Main = () => {
   return (
     <div className={Styles.Container}>
       <Especialidades />
-      <Banner imagem={imagem} tamanho="100%" />
+      {/* <Banner imagem={imagem} tamanho="100%" /> */}
+      <Limpeza />
+      <Feedback />
       <Sobre />
       <Contato />
     </div>

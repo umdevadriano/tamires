@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className={Styles.Container}>
       <TextoRoda
-        texto=" Copyright © 2022 - Site de Estética | Desenvolvido por: Sampaio S.S
+        texto=" Copyright © 2023 - Site de Estética | Desenvolvido por: Sampaio S.S
         "
       />
     </div>

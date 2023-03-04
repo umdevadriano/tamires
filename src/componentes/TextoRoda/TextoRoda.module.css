@@ -4,8 +4,8 @@
   justify-content: center;
   width: 100%;
   height: 6rem;
-  background-color: var(--mainColor);
-  color: #eee;
+  background-color: #eee;
+  color: #d26eac;
 }
 .Container span {
   display: flex;
