@@ -12,3 +12,10 @@
   border: 1px solid #d26eac;
   mix-blend-mode: multiply;
 }
+
+@media only screen and (max-width: 1024px) {
+  .Container {
+    width: 100%;
+    flex-direction: column;
+  }
+}

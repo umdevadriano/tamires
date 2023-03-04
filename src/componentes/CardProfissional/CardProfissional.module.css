@@ -28,7 +28,7 @@
   width: 16rem;
 }
 .ContainerImg {
-  width: 30%;
+  display: flex;
 }
 .ContainerTexto {
   display: flex;

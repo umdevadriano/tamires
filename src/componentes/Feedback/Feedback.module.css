@@ -5,3 +5,13 @@
   width: 100%;
   flex-wrap: wrap;
 }
+
+@media only screen and (max-width: 1024px) {
+  .Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+  }
+}
