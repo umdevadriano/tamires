@@ -3,6 +3,7 @@ import Cards from '../Cards/Cards';
 import TextoCabe from '../TextoCabe/TextoCabe';
 import Styles from './Especialidades.module.css';
 import Button from '../Button/Button';
+import TextoCorpo from '../TextoCorpo/TextoCorpo';
 
 const Especialidades = () => {
   return (
