@@ -11,7 +11,7 @@ const Main = () => {
     <div className={Styles.Container}>
       {/* <Especialidades /> */}
       {/* <Banner imagem={imagem} tamanho="100%" /> */}
-      {/* <Limpeza /> */}
+      <Limpeza />
       <Feedback />
       <Sobre />
       <Contato />
