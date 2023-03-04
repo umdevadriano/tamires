@@ -8,9 +8,7 @@
 }
 .Container img {
   width: 90%;
-  border-radius: 1rem;
-  border: 1px solid #d26eac;
-  mix-blend-mode: multiply;
+  border-radius: 20%;
 }
 
 @media only screen and (max-width: 1024px) {

@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <WhatsAppContato
         texto="Agendar horário"
-        link="https://wa.me/5511939379761?text=Ol%C3%A1%21+Estou+no+site+e+gostaria+de+agendar+um+horário"
+        link="https://wa.me/5511939379761?text=Ol%C3%A1%21+Estou+no+seu+site+e+gostaria+de+agendar+um+horário"
       />
       <Navbar />
       <Header />

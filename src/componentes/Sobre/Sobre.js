@@ -17,8 +17,8 @@ const Sobre = () => {
         />
         <TextoCorpo
           texto="
-          Transformando Depilação em Autoestima!💕
-          🔸Especialista em Depilação Feminina"
+          Transformando Depilação e pele em Autoestima!💕
+          🔸Especialista em Depilação Feminina e Limpeza de Pele"
         />
       </div>
     </div>

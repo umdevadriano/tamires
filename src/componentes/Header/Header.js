@@ -7,6 +7,9 @@ const Header = () => {
     <div className={Styles.Container} id="Home">
       <div className={Styles.Container2} id="Home">
         <RedeSociais posicao="right" />
+        <div className={Styles.ContainerH1}>
+          <h1>Cuide Bem da Pele</h1>
+        </div>
       </div>
     </div>
   );
