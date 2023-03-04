@@ -9,7 +9,7 @@ import Limpeza from '../Limpeza/Limpeza';
 const Main = () => {
   return (
     <div className={Styles.Container}>
-      {/* <Especialidades /> */}
+      <Especialidades />
       {/* <Banner imagem={imagem} tamanho="100%" /> */}
       <Limpeza />
       <Feedback />
