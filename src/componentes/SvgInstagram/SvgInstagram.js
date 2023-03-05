@@ -1,9 +1,11 @@
 import React from 'react';
+import Styles from './SvgInstagram.module.css';
 
 const SvgInstagram = (props) => {
   return (
     <>
       <svg
+        className={Styles.Container}
         enable-background="new 0 0 512 512"
         id="Layer_1"
         version="1.1"

@@ -43,7 +43,7 @@
     width: 100%;
     flex-wrap: wrap;
   }
-  .Container div img {
-    width: 10rem;
-  }
+  /* .Container div img {
+    width: 14rem;
+  } */
 }

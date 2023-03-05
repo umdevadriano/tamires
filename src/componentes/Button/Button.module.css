@@ -11,13 +11,21 @@
   width: 15rem;
   height: 3rem;
   color: var(--textColor);
-  border: solid 1px var(--textColor);
+  border: solid 2px var(--textColor);
   border-radius: 0.7rem;
 }
 .Container div:hover {
-  background-color: #555;
+  background-color: #fff;
   color: var(--ColorHover);
+  color: rgb(239, 131, 84);
 }
 .tag {
   text-decoration: none;
+}
+
+.botao {
+  background-color: rgb(239, 131, 84);
+}
+.botao:hover {
+  color: rgb(239, 131, 84);
 }

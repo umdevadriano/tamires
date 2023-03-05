@@ -3,7 +3,7 @@ import CardProfissional from '../CardProfissional/CardProfissional';
 import TextoCabe from '../TextoCabe/TextoCabe';
 import TextoCorpo from '../TextoCorpo/TextoCorpo';
 import Styles from './Sobre.module.css';
-import imagem from '../CardProfissional/limpezadepele.jpg';
+import imagem from '../CardProfissional/1perfil.jpeg';
 
 const Sobre = () => {
   return (
@@ -12,7 +12,7 @@ const Sobre = () => {
       <div className={Styles.ContainerProfissional}>
         <CardProfissional
           titulo="Tamires silva"
-          texto="Esteticista Limpeza de pele Profunda, Epilação Facial & Corporal Feminina"
+          texto="Esteticista Limpeza de pele Profunda formada, Depilação Facial & Corporal Feminina "
           foto={imagem}
         />
         <TextoCorpo

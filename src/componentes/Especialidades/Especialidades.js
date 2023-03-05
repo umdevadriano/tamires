@@ -16,7 +16,7 @@ const Especialidades = () => {
         cor="#ef8354"
         corFonte="#eee"
         largura="1rem"
-        link="https://wa.me/5511984835370?text=Ol%C3%A1%21+Estou+no+site+e+gostaria+de+agendar+um+horário"
+        link="https://wa.me/5511939379761?text=Ol%C3%A1%21+Estou+no+seu+site+e+gostaria+de+agendar+um+horário"
       />
 
       <Cards />

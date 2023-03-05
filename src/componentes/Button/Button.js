@@ -10,11 +10,12 @@ const Button = (props) => {
           style={{ height: `${props.largura}` }}
         >
           <div
-            style={{
-              background: `${props.cor}`,
-              color: `${props.corFonte}`,
-              width: `${props.tamanho}`,
-            }}
+            className={Styles.botao}
+            // style={{
+            //   background: `${props.cor}`,
+            //   color: `${props.corFonte}`,
+            //   width: `${props.tamanho}`,
+            // }}
           >
             {props.nome}
           </div>

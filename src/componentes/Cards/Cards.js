@@ -12,41 +12,13 @@ import imagem7 from './depilacão/7.jpeg';
 const Cards = () => {
   return (
     <div className={Styles.Container}>
-      <CardProfissional
-        titulo="LIMPEZA DE PELE"
-        texto="Ultrassom Micro e Macro focado + famoso do Mundo, Resultados Incríveis já na 1° sessão!! Lifting Facial Imediato, indicado 1 sessão anual."
-        foto={imagem1}
-      />
-      <CardProfissional
-        titulo="LIMPEZA DE PELE"
-        texto="Ultrassom Micro e Macro focado + famoso do Mundo, Resultados Incríveis já na 1° sessão!! Lifting Facial Imediato, indicado 1 sessão anual."
-        foto={imagem2}
-      />
-      <CardProfissional
-        titulo="LIMPEZA DE PELE"
-        texto="Ultrassom Micro e Macro focado + famoso do Mundo, Resultados Incríveis já na 1° sessão!! Lifting Facial Imediato, indicado 1 sessão anual."
-        foto={imagem3}
-      />
-      <CardProfissional
-        titulo="LIMPEZA DE PELE"
-        texto="Ultrassom Micro e Macro focado + famoso do Mundo, Resultados Incríveis já na 1° sessão!! Lifting Facial Imediato, indicado 1 sessão anual."
-        foto={imagem4}
-      />
-      <CardProfissional
-        titulo="LIMPEZA DE PELE"
-        texto="Ultrassom Micro e Macro focado + famoso do Mundo, Resultados Incríveis já na 1° sessão!! Lifting Facial Imediato, indicado 1 sessão anual."
-        foto={imagem5}
-      />
-      <CardProfissional
-        titulo="LIMPEZA DE PELE"
-        texto="Ultrassom Micro e Macro focado + famoso do Mundo, Resultados Incríveis já na 1° sessão!! Lifting Facial Imediato, indicado 1 sessão anual."
-        foto={imagem6}
-      />
-      <CardProfissional
-        titulo="LIMPEZA DE PELE"
-        texto="Ultrassom Micro e Macro focado + famoso do Mundo, Resultados Incríveis já na 1° sessão!! Lifting Facial Imediato, indicado 1 sessão anual."
-        foto={imagem7}
-      />
+      <CardProfissional foto={imagem1} />
+      <CardProfissional foto={imagem2} />
+      <CardProfissional foto={imagem3} />
+      <CardProfissional foto={imagem4} />
+      <CardProfissional foto={imagem5} />
+      <CardProfissional foto={imagem6} />
+      <CardProfissional foto={imagem7} />
     </div>
   );
 };

@@ -1,6 +1,5 @@
 import React from 'react';
 import SvgInstagram from '../SvgInstagram/SvgInstagram';
-import SvgLinkedin from '../SvgLinkedin/SvgLinkedin';
 import Styles from './RedeSociais.module.css';
 
 const RedeSociais = (props) => {
