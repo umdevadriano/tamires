@@ -8,7 +8,7 @@ import TextoCorpo from '../TextoCorpo/TextoCorpo';
 const Especialidades = () => {
   return (
     <div className={Styles.Container} id="Especialidades">
-      <TextoCabe texto="Epilação Facial e Corporal Feminina" />
+      <TextoCabe texto="Depilação Facial e Corporal Feminina" />
       <TextoCorpo texto=" Ajudam a causar menos irritações na pele na comparação com a depilação com lâmina, na depilação com cera, os pelos são retirados desde a raiz. Por isso, a pele fica mais lisa e macia, uma vez que não restam pontinhas dos fios na superfície das áreas depiladas." />
       <Button
         nome="Agende um horário"
