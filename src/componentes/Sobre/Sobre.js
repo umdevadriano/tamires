@@ -12,7 +12,7 @@ const Sobre = () => {
       <div className={Styles.ContainerProfissional}>
         <CardProfissional
           titulo="Tamires silva"
-          texto="Esteticista Limpeza de pele Profunda formada, Depilação Facial & Corporal Feminina "
+          texto="Esteticista Limpeza de pele Profunda , Depilação Facial & Corporal Feminina "
           foto={imagem}
         />
         <TextoCorpo
