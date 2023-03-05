@@ -22,6 +22,12 @@ const CardContato = () => {
 
           <br />
           <small>Rua Inajá 72 , parque pirajussara Embu das artes - Sp</small>
+          <br />
+          <br />
+          <small>
+            Funcionamento: Terça a Domingo das 10:00h as 19:00h (Somente com
+            Agendamento Prévio)
+          </small>
         </h1>
       </div>
 

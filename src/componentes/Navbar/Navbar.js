@@ -2,7 +2,7 @@ import { useRef } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import Logo from '../Logo/Logo';
 import '../Navbar/Navbar.css';
-import imagem from '../Logo/tata.png';
+import imagem from '../Logo/1.png';
 import { Link } from 'react-scroll';
 
 function Navbar() {
@@ -20,7 +20,23 @@ function Navbar() {
 
   return (
     <header>
-      <Logo logo={imagem} tamanho="10rem" />
+      <Link
+        style={{
+          display: 'flex',
+          justifyContent: 'left',
+          width: '60%',
+          height: '100%',
+        }}
+        activeClass="active"
+        to="Home"
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={100}
+        onClick={showNavbar}
+      >
+        <Logo logo={imagem} tamanho="4rem" />
+      </Link>
 
       <nav ref={navRef}>
         {titulos.map((titulo) => (
